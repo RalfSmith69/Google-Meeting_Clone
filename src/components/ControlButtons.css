@@ -1,0 +1,46 @@
+.control-buttons {
+  display: flex;
+  gap: 10px;
+  background-color: #202124;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.control-buttons.main {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.control-buttons.secondary {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.control-button {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: none;
+  background-color: #3c4043;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.control-button:hover {
+  background-color: #ea4335;
+}
+
+.control-button.red {
+  background-color: #ea4335;
+}
+
+.control-button.red:hover {
+  background-color: #55504e;
+}
